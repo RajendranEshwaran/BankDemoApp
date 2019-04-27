@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14111" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Yt8-07-WJJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="LTZ-Rt-Rtw">
+            <objects>
+                <viewController id="Yt8-07-WJJ" customClass="HomeViewController" customModule="BankAppTabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="slZ-2f-acd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wh4-5L-kJ3">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Fund Transfer" image="transfer.png" id="T3q-u3-smj"/>
+                                    <tabBarItem tag="1" title="Recharge" image="recharge2.png" id="RXi-5p-vEJ"/>
+                                    <tabBarItem tag="2" title="Pay Bills" image="bills1.png" id="LYm-dU-sIH"/>
+                                    <tabBarItem tag="3" title="Services" image="services2.png" id="KIH-nK-TPq"/>
+                                    <tabBarItem tag="4" title="Appy Now" image="applynow.png" id="Hf5-PW-lKt"/>
+                                </items>
+                                <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="0.91076922416687012" green="0.050715409219264984" blue="0.50430780649185181" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="selectedImageTintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Yt8-07-WJJ" id="bub-Me-F0X"/>
+                                </connections>
+                            </tabBar>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hZF-Hf-Fz3" customClass="CustomNavigation" customModule="BankAppTabbar" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wh4-5L-kJ3" firstAttribute="trailing" secondItem="oBF-jr-vtd" secondAttribute="trailing" id="5qL-rs-fRI"/>
+                            <constraint firstItem="wh4-5L-kJ3" firstAttribute="leading" secondItem="oBF-jr-vtd" secondAttribute="leading" id="Ci6-iY-u4n"/>
+                            <constraint firstItem="wh4-5L-kJ3" firstAttribute="bottom" secondItem="oBF-jr-vtd" secondAttribute="bottom" id="tFg-tv-Kue"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="oBF-jr-vtd"/>
+                    </view>
+                    <connections>
+                        <outlet property="item1" destination="T3q-u3-smj" id="frV-iI-Ynd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PEH-Kl-naL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="937" y="-824"/>
+        </scene>
+        <!--Fund Transfer View Controller-->
+        <scene sceneID="Der-3K-xSJ">
+            <objects>
+                <viewController storyboardIdentifier="FundTransferViewController" id="QUC-sz-YNz" customClass="FundTransferViewController" customModule="BankAppTabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XDq-Gy-ZHA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cyj-Xc-bod" customClass="CustomNavigation" customModule="BankAppTabbar" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="KMI-GH-Ssc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ifq-fI-QI6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1623" y="-824"/>
+        </scene>
+        <!--Services View Controller-->
+        <scene sceneID="6Ad-TL-WOk">
+            <objects>
+                <viewController id="0wa-em-dSc" customClass="ServicesViewController" customModule="BankAppTabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9RS-Zh-sIe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZBh-ZA-PCq" customClass="CustomNavigation" customModule="BankAppTabbar" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="qM5-dK-kcm"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t06-AQ-ZXb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1626" y="-161"/>
+        </scene>
+        <!--Apply Now View Controller-->
+        <scene sceneID="XWm-Ny-hda">
+            <objects>
+                <viewController id="fnv-Eq-bbG" customClass="ApplyNowViewController" customModule="BankAppTabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J2x-UK-eEM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GIF-XE-Wjq" customClass="CustomNavigation" customModule="BankAppTabbar" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="aY6-nl-sWE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WRa-gW-aqH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2286" y="-159"/>
+        </scene>
+        <!--Recharge View Controller-->
+        <scene sceneID="k15-iN-gVx">
+            <objects>
+                <viewController storyboardIdentifier="RechargeViewController" id="Wrk-jP-hfu" customClass="RechargeViewController" customModule="BankAppTabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fXn-6G-roL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yDs-Dj-7hc" customClass="CustomNavigation" customModule="BankAppTabbar" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="4ov-9z-d1n"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n3q-R4-bb8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2278" y="-824"/>
+        </scene>
+        <!--Pay Bills View Controller-->
+        <scene sceneID="Suk-xJ-ZNZ">
+            <objects>
+                <viewController id="ntf-7u-sNH" customClass="PayBillsViewController" customModule="BankAppTabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xrh-fE-Wmp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nTg-y0-7o5" customClass="CustomNavigation" customModule="BankAppTabbar" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="-1" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="zQx-rA-wpa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="raB-vy-PrS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2927" y="-820"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="applynow.png" width="32" height="32"/>
+        <image name="bills1.png" width="32" height="32"/>
+        <image name="recharge2.png" width="32" height="31"/>
+        <image name="services2.png" width="32" height="32"/>
+        <image name="transfer.png" width="32" height="26"/>
+    </resources>
+</document>
