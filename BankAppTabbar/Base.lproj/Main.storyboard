@@ -35,27 +35,111 @@
                                     <outlet property="delegate" destination="Yt8-07-WJJ" id="bub-Me-F0X"/>
                                 </connections>
                             </tabBar>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hZF-Hf-Fz3" customClass="CustomNavigation" customModule="BankAppTabbar" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hZF-Hf-Fz3" customClass="CustomNavigation" customModule="BankAppTabbar" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <searchBar contentMode="redraw" placeholder="What are you looking for ?" translatesAutoresizingMaskIntoConstraints="NO" id="bSF-Gf-u4u">
+                                <rect key="frame" x="0.0" y="-28" width="375" height="56"/>
+                                <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                            </searchBar>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Account Balance" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I02-5w-jk3">
+                                <rect key="frame" x="91" y="37" width="193" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="5NV-Bx-9Or"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rs. 10,00,000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15D-ck-PO6">
+                                <rect key="frame" x="30" y="90" width="316" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.45000000000000001" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="efk-tS-7PE">
+                                <rect key="frame" x="16" y="169" width="343" height="433"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wVr-eU-qTs">
+                                    <size key="itemSize" width="100" height="100"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="Cqw-4C-q7e" customClass="HomeCollectionViewCell" customModule="BankAppTabbar" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2g-fI-YEW">
+                                                    <rect key="frame" x="0.0" y="83" width="100" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rNV-2G-ALu">
+                                                    <rect key="frame" x="20" y="12" width="60" height="60"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="e2g-fI-YEW" firstAttribute="leading" secondItem="Cqw-4C-q7e" secondAttribute="leading" id="A89-nM-4lZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="e2g-fI-YEW" secondAttribute="trailing" id="Yed-AX-Na9"/>
+                                            <constraint firstAttribute="bottom" secondItem="e2g-fI-YEW" secondAttribute="bottom" id="eaa-c0-zPZ"/>
+                                        </constraints>
+                                        <size key="customSize" width="100" height="100"/>
+                                        <connections>
+                                            <outlet property="cellImageView" destination="rNV-2G-ALu" id="fvA-Cf-ZGf"/>
+                                            <outlet property="cellLabel" destination="e2g-fI-YEW" id="b0v-8r-yem"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="Yt8-07-WJJ" id="DqK-DT-3rh"/>
+                                    <outlet property="delegate" destination="Yt8-07-WJJ" id="zEu-W8-z59"/>
+                                </connections>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="I02-5w-jk3" secondAttribute="trailing" constant="20" symbolic="YES" id="0x7-zA-s58"/>
+                            <constraint firstItem="hZF-Hf-Fz3" firstAttribute="leading" secondItem="bSF-Gf-u4u" secondAttribute="leading" id="27Z-Ty-fDO"/>
                             <constraint firstItem="wh4-5L-kJ3" firstAttribute="trailing" secondItem="oBF-jr-vtd" secondAttribute="trailing" id="5qL-rs-fRI"/>
+                            <constraint firstItem="bSF-Gf-u4u" firstAttribute="top" secondItem="hZF-Hf-Fz3" secondAttribute="bottom" constant="-77" id="72o-hU-HWT"/>
+                            <constraint firstItem="bSF-Gf-u4u" firstAttribute="trailing" secondItem="oBF-jr-vtd" secondAttribute="trailing" id="B8L-pn-e5Q"/>
                             <constraint firstItem="wh4-5L-kJ3" firstAttribute="leading" secondItem="oBF-jr-vtd" secondAttribute="leading" id="Ci6-iY-u4n"/>
+                            <constraint firstItem="bSF-Gf-u4u" firstAttribute="leading" secondItem="oBF-jr-vtd" secondAttribute="leading" id="De9-FU-eoI"/>
+                            <constraint firstItem="hZF-Hf-Fz3" firstAttribute="top" secondItem="slZ-2f-acd" secondAttribute="top" id="EFB-Jv-867"/>
+                            <constraint firstItem="hZF-Hf-Fz3" firstAttribute="trailing" secondItem="bSF-Gf-u4u" secondAttribute="trailing" id="LgZ-dK-u0r"/>
+                            <constraint firstItem="15D-ck-PO6" firstAttribute="leading" secondItem="oBF-jr-vtd" secondAttribute="leading" constant="30" id="an2-c0-NNX"/>
+                            <constraint firstItem="efk-tS-7PE" firstAttribute="top" secondItem="15D-ck-PO6" secondAttribute="bottom" constant="43" id="bC0-zY-SAa"/>
+                            <constraint firstItem="efk-tS-7PE" firstAttribute="leading" secondItem="oBF-jr-vtd" secondAttribute="leading" constant="16" id="cLp-z7-ccU"/>
+                            <constraint firstItem="I02-5w-jk3" firstAttribute="leading" secondItem="oBF-jr-vtd" secondAttribute="leading" constant="91" id="hfS-w9-7c8"/>
+                            <constraint firstItem="oBF-jr-vtd" firstAttribute="trailing" secondItem="efk-tS-7PE" secondAttribute="trailing" constant="16" id="i1p-5Z-3NH"/>
+                            <constraint firstItem="I02-5w-jk3" firstAttribute="top" secondItem="bSF-Gf-u4u" secondAttribute="bottom" constant="9" id="iNC-9f-yN3"/>
+                            <constraint firstItem="wh4-5L-kJ3" firstAttribute="top" secondItem="efk-tS-7PE" secondAttribute="bottom" constant="16" id="ohx-XM-vTw"/>
+                            <constraint firstItem="15D-ck-PO6" firstAttribute="top" secondItem="I02-5w-jk3" secondAttribute="bottom" constant="8" id="pgD-c7-gK8"/>
                             <constraint firstItem="wh4-5L-kJ3" firstAttribute="bottom" secondItem="oBF-jr-vtd" secondAttribute="bottom" id="tFg-tv-Kue"/>
+                            <constraint firstItem="oBF-jr-vtd" firstAttribute="trailing" secondItem="15D-ck-PO6" secondAttribute="trailing" constant="29" id="uo4-iT-YGd"/>
+                            <constraint firstAttribute="bottom" secondItem="hZF-Hf-Fz3" secondAttribute="bottom" constant="618" id="wQ3-2m-2HZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="oBF-jr-vtd"/>
                     </view>
                     <connections>
+                        <outlet property="homeCollectionMenuView" destination="efk-tS-7PE" id="tlh-R7-HFU"/>
                         <outlet property="item1" destination="T3q-u3-smj" id="frV-iI-Ynd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PEH-Kl-naL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="937" y="-824"/>
+            <point key="canvasLocation" x="936.79999999999995" y="-824.43778110944538"/>
         </scene>
         <!--Fund Transfer View Controller-->
         <scene sceneID="Der-3K-xSJ">
@@ -70,6 +154,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yhd-mz-IeF">
+                                <rect key="frame" x="149" y="201" width="42" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="KMI-GH-Ssc"/>
@@ -77,12 +168,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ifq-fI-QI6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1623" y="-824"/>
+            <point key="canvasLocation" x="1621.5999999999999" y="-824.43778110944538"/>
         </scene>
         <!--Services View Controller-->
         <scene sceneID="6Ad-TL-WOk">
             <objects>
-                <viewController id="0wa-em-dSc" customClass="ServicesViewController" customModule="BankAppTabbar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ServicesViewController" id="0wa-em-dSc" customClass="ServicesViewController" customModule="BankAppTabbar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9RS-Zh-sIe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,7 +195,7 @@
         <!--Apply Now View Controller-->
         <scene sceneID="XWm-Ny-hda">
             <objects>
-                <viewController id="fnv-Eq-bbG" customClass="ApplyNowViewController" customModule="BankAppTabbar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ApplyNowViewController" id="fnv-Eq-bbG" customClass="ApplyNowViewController" customModule="BankAppTabbar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J2x-UK-eEM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -148,7 +239,7 @@
         <!--Pay Bills View Controller-->
         <scene sceneID="Suk-xJ-ZNZ">
             <objects>
-                <viewController id="ntf-7u-sNH" customClass="PayBillsViewController" customModule="BankAppTabbar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PayBillsViewController" id="ntf-7u-sNH" customClass="PayBillsViewController" customModule="BankAppTabbar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xrh-fE-Wmp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

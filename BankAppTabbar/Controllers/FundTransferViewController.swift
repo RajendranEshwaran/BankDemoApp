@@ -12,7 +12,7 @@ class FundTransferViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+print("welcome to transfer")
         // Do any additional setup after loading the view.
     }
 

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97149C9C227553C90013EC88 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97149C9B227553C90013EC88 /* HomeCollectionViewCell.swift */; };
+		97149CA6227559170013EC88 /* upi.png in Resources */ = {isa = PBXBuildFile; fileRef = 97149C9D227559150013EC88 /* upi.png */; };
+		97149CA7227559170013EC88 /* deals.png in Resources */ = {isa = PBXBuildFile; fileRef = 97149C9E227559150013EC88 /* deals.png */; };
+		97149CA8227559170013EC88 /* loans.png in Resources */ = {isa = PBXBuildFile; fileRef = 97149C9F227559160013EC88 /* loans.png */; };
+		97149CA9227559170013EC88 /* demats.png in Resources */ = {isa = PBXBuildFile; fileRef = 97149CA0227559160013EC88 /* demats.png */; };
+		97149CAA227559170013EC88 /* mutualfunds.png in Resources */ = {isa = PBXBuildFile; fileRef = 97149CA1227559160013EC88 /* mutualfunds.png */; };
+		97149CAB227559170013EC88 /* account.png in Resources */ = {isa = PBXBuildFile; fileRef = 97149CA2227559160013EC88 /* account.png */; };
+		97149CAC227559170013EC88 /* creditcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 97149CA3227559160013EC88 /* creditcard.png */; };
+		97149CAD227559170013EC88 /* moneybag.png in Resources */ = {isa = PBXBuildFile; fileRef = 97149CA4227559170013EC88 /* moneybag.png */; };
+		97149CAE227559170013EC88 /* forexcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 97149CA5227559170013EC88 /* forexcard.png */; };
 		9733F0A622749DA0003E0773 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F0A522749DA0003E0773 /* HomeViewController.swift */; };
 		9733F0A82274B16A003E0773 /* FundTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F0A72274B16A003E0773 /* FundTransferViewController.swift */; };
 		9733F0AA2274B17B003E0773 /* RechargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F0A92274B17B003E0773 /* RechargeViewController.swift */; };
@@ -34,6 +44,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		97149C9B227553C90013EC88 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		97149C9D227559150013EC88 /* upi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upi.png; sourceTree = "<group>"; };
+		97149C9E227559150013EC88 /* deals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deals.png; sourceTree = "<group>"; };
+		97149C9F227559160013EC88 /* loans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loans.png; sourceTree = "<group>"; };
+		97149CA0227559160013EC88 /* demats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demats.png; sourceTree = "<group>"; };
+		97149CA1227559160013EC88 /* mutualfunds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mutualfunds.png; sourceTree = "<group>"; };
+		97149CA2227559160013EC88 /* account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account.png; sourceTree = "<group>"; };
+		97149CA3227559160013EC88 /* creditcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = creditcard.png; sourceTree = "<group>"; };
+		97149CA4227559170013EC88 /* moneybag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moneybag.png; sourceTree = "<group>"; };
+		97149CA5227559170013EC88 /* forexcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forexcard.png; sourceTree = "<group>"; };
 		9733F0A522749DA0003E0773 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9733F0A72274B16A003E0773 /* FundTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundTransferViewController.swift; sourceTree = "<group>"; };
 		9733F0A92274B17B003E0773 /* RechargeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechargeViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +113,7 @@
 				97FBE359227394FB0050DE71 /* CustomNavigation.swift */,
 				97FBE3572273928E0050DE71 /* CustomNavigation.xib */,
 				97FBE35B2273EED80050DE71 /* NavigationCustom.xib */,
+				97149C9B227553C90013EC88 /* HomeCollectionViewCell.swift */,
 			);
 			path = ReusableControllers;
 			sourceTree = "<group>";
@@ -139,6 +160,15 @@
 		97FBE33A227217510050DE71 /* ImageAssets */ = {
 			isa = PBXGroup;
 			children = (
+				97149CA2227559160013EC88 /* account.png */,
+				97149CA3227559160013EC88 /* creditcard.png */,
+				97149C9E227559150013EC88 /* deals.png */,
+				97149CA0227559160013EC88 /* demats.png */,
+				97149CA5227559170013EC88 /* forexcard.png */,
+				97149C9F227559160013EC88 /* loans.png */,
+				97149CA4227559170013EC88 /* moneybag.png */,
+				97149CA1227559160013EC88 /* mutualfunds.png */,
+				97149C9D227559150013EC88 /* upi.png */,
 				97FBE35D2273F00F0050DE71 /* home.png */,
 				97FBE3532272276D0050DE71 /* reveal2.png */,
 				97FBE34C2272264B0050DE71 /* logout.png */,
@@ -217,12 +247,21 @@
 				97FBE3582273928E0050DE71 /* CustomNavigation.xib in Resources */,
 				97FBE342227217820050DE71 /* recharge.png in Resources */,
 				97FBE33322720F4C0050DE71 /* LaunchScreen.storyboard in Resources */,
+				97149CAC227559170013EC88 /* creditcard.png in Resources */,
 				97FBE3472272195C0050DE71 /* recharge2.png in Resources */,
 				97FBE34E2272264B0050DE71 /* logout.png in Resources */,
+				97149CA9227559170013EC88 /* demats.png in Resources */,
+				97149CA6227559170013EC88 /* upi.png in Resources */,
+				97149CAB227559170013EC88 /* account.png in Resources */,
+				97149CAD227559170013EC88 /* moneybag.png in Resources */,
 				97FBE340227217820050DE71 /* applynow.png in Resources */,
+				97149CAE227559170013EC88 /* forexcard.png in Resources */,
 				97FBE3542272276D0050DE71 /* reveal2.png in Resources */,
 				97FBE33022720F4C0050DE71 /* Assets.xcassets in Resources */,
 				97FBE35E2273F00F0050DE71 /* home.png in Resources */,
+				97149CAA227559170013EC88 /* mutualfunds.png in Resources */,
+				97149CA8227559170013EC88 /* loans.png in Resources */,
+				97149CA7227559170013EC88 /* deals.png in Resources */,
 				97FBE344227217820050DE71 /* transfer.png in Resources */,
 				97FBE341227217820050DE71 /* bills1.png in Resources */,
 				97FBE32E22720F4A0050DE71 /* Main.storyboard in Resources */,
@@ -241,6 +280,7 @@
 				97FBE3602273F0860050DE71 /* NavigationCustom.swift in Sources */,
 				9733F0AE2274B19F003E0773 /* ServicesViewController.swift in Sources */,
 				97FBE32922720F4A0050DE71 /* AppDelegate.swift in Sources */,
+				97149C9C227553C90013EC88 /* HomeCollectionViewCell.swift in Sources */,
 				9733F0AC2274B18C003E0773 /* PayBillsViewController.swift in Sources */,
 				9733F0A82274B16A003E0773 /* FundTransferViewController.swift in Sources */,
 				97FBE35A227394FB0050DE71 /* CustomNavigation.swift in Sources */,
