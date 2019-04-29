@@ -10,9 +10,12 @@ import UIKit
 
 class CustomNavigation: UIView {
 
+    @IBOutlet weak var revealBtn: UIBarButtonItem!
     @IBAction func revealBtn(_ sender: Any) {
+       
     }
     
+   
     @IBAction func homeBtn(_ sender: Any) {
     }
     /*

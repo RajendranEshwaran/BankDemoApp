@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9703B43A22774DF000031C21 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9703B43822774DF000031C21 /* SWRevealViewController.m */; };
+		9703B43C227794C000031C21 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9703B43B227794C000031C21 /* SideMenuTableViewCell.swift */; };
+		9703B43E2277952400031C21 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9703B43D2277952400031C21 /* SideMenuViewController.swift */; };
+		9703B44022779D3600031C21 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 9703B43F22779D3600031C21 /* profile.png */; };
 		97149C9C227553C90013EC88 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97149C9B227553C90013EC88 /* HomeCollectionViewCell.swift */; };
 		97149CA6227559170013EC88 /* upi.png in Resources */ = {isa = PBXBuildFile; fileRef = 97149C9D227559150013EC88 /* upi.png */; };
 		97149CA7227559170013EC88 /* deals.png in Resources */ = {isa = PBXBuildFile; fileRef = 97149C9E227559150013EC88 /* deals.png */; };
@@ -44,6 +48,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9703B43722774DEF00031C21 /* BankAppTabbar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BankAppTabbar-Bridging-Header.h"; sourceTree = "<group>"; };
+		9703B43822774DF000031C21 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		9703B43922774DF000031C21 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		9703B43B227794C000031C21 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		9703B43D2277952400031C21 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		9703B43F22779D3600031C21 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
 		97149C9B227553C90013EC88 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		97149C9D227559150013EC88 /* upi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upi.png; sourceTree = "<group>"; };
 		97149C9E227559150013EC88 /* deals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deals.png; sourceTree = "<group>"; };
@@ -103,6 +113,7 @@
 				9733F0A92274B17B003E0773 /* RechargeViewController.swift */,
 				9733F0AB2274B18C003E0773 /* PayBillsViewController.swift */,
 				9733F0AF2274B1B4003E0773 /* ApplyNowViewController.swift */,
+				9703B43D2277952400031C21 /* SideMenuViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -110,10 +121,14 @@
 		9733F0B22274B239003E0773 /* ReusableControllers */ = {
 			isa = PBXGroup;
 			children = (
+				9703B43922774DF000031C21 /* SWRevealViewController.h */,
+				9703B43822774DF000031C21 /* SWRevealViewController.m */,
 				97FBE359227394FB0050DE71 /* CustomNavigation.swift */,
 				97FBE3572273928E0050DE71 /* CustomNavigation.xib */,
 				97FBE35B2273EED80050DE71 /* NavigationCustom.xib */,
 				97149C9B227553C90013EC88 /* HomeCollectionViewCell.swift */,
+				9703B43722774DEF00031C21 /* BankAppTabbar-Bridging-Header.h */,
+				9703B43B227794C000031C21 /* SideMenuTableViewCell.swift */,
 			);
 			path = ReusableControllers;
 			sourceTree = "<group>";
@@ -160,6 +175,7 @@
 		97FBE33A227217510050DE71 /* ImageAssets */ = {
 			isa = PBXGroup;
 			children = (
+				9703B43F22779D3600031C21 /* profile.png */,
 				97149CA2227559160013EC88 /* account.png */,
 				97149CA3227559160013EC88 /* creditcard.png */,
 				97149C9E227559150013EC88 /* deals.png */,
@@ -215,6 +231,7 @@
 				TargetAttributes = {
 					97FBE32422720F4A0050DE71 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -259,6 +276,7 @@
 				97FBE3542272276D0050DE71 /* reveal2.png in Resources */,
 				97FBE33022720F4C0050DE71 /* Assets.xcassets in Resources */,
 				97FBE35E2273F00F0050DE71 /* home.png in Resources */,
+				9703B44022779D3600031C21 /* profile.png in Resources */,
 				97149CAA227559170013EC88 /* mutualfunds.png in Resources */,
 				97149CA8227559170013EC88 /* loans.png in Resources */,
 				97149CA7227559170013EC88 /* deals.png in Resources */,
@@ -278,11 +296,14 @@
 				9733F0A622749DA0003E0773 /* HomeViewController.swift in Sources */,
 				9733F0B02274B1B4003E0773 /* ApplyNowViewController.swift in Sources */,
 				97FBE3602273F0860050DE71 /* NavigationCustom.swift in Sources */,
+				9703B43E2277952400031C21 /* SideMenuViewController.swift in Sources */,
+				9703B43C227794C000031C21 /* SideMenuTableViewCell.swift in Sources */,
 				9733F0AE2274B19F003E0773 /* ServicesViewController.swift in Sources */,
 				97FBE32922720F4A0050DE71 /* AppDelegate.swift in Sources */,
 				97149C9C227553C90013EC88 /* HomeCollectionViewCell.swift in Sources */,
 				9733F0AC2274B18C003E0773 /* PayBillsViewController.swift in Sources */,
 				9733F0A82274B16A003E0773 /* FundTransferViewController.swift in Sources */,
+				9703B43A22774DF000031C21 /* SWRevealViewController.m in Sources */,
 				97FBE35A227394FB0050DE71 /* CustomNavigation.swift in Sources */,
 				9733F0AA2274B17B003E0773 /* RechargeViewController.swift in Sources */,
 			);
@@ -428,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BankAppTabbar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -436,6 +458,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rajaygms.BankAppTabbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BankAppTabbar/ReusableControllers/BankAppTabbar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,6 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BankAppTabbar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -453,6 +478,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rajaygms.BankAppTabbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BankAppTabbar/ReusableControllers/BankAppTabbar-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
