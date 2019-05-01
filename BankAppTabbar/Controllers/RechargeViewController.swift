@@ -10,6 +10,11 @@ import UIKit
 
 class RechargeViewController: UIViewController {
 
+    @IBAction func testMetod(_ sender: Any) {
+        
+        let test = SWRevealViewController()
+    
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

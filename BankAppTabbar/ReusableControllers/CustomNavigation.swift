@@ -8,16 +8,22 @@
 
 import UIKit
 
+
 class CustomNavigation: UIView {
 
+   
+    
     @IBOutlet weak var revealBtn: UIBarButtonItem!
     @IBAction func revealBtn(_ sender: Any) {
-       
+        
     }
     
    
     @IBAction func homeBtn(_ sender: Any) {
+        
     }
+    
+   
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -33,6 +39,9 @@ class CustomNavigation: UIView {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        
+        
+        
         customInitialization()
     }
     

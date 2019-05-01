@@ -32,10 +32,10 @@ class HomeViewController: UIViewController,UITabBarDelegate,UITabBarControllerDe
 //        fundTransfter.view.backgroundColor = UIColor.green
         
         // Do any additional setup after loading the view.
-        
-        menuRevealBtn.target = revealViewController()
-        menuRevealBtn.action = #selector(SWRevealViewController.revealToggle(_:))
+        revealMenu()
+      
     }
+    
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return imgArray.count
@@ -69,29 +69,30 @@ class HomeViewController: UIViewController,UITabBarDelegate,UITabBarControllerDe
            
             let FundView = self.storyboard?.instantiateViewController(withIdentifier: "FundTransferViewController") as! FundTransferViewController
             //self.navigationController?.pushViewController(FundView, animated: true,comple
-            self.present(FundView, animated: true, completion: nil);
+            self.present(FundView, animated: false, completion: nil);
+            
         }
         if(item.tag == 1)
         {
            
             let RechargeView = self.storyboard?.instantiateViewController(withIdentifier: "RechargeViewController") as! RechargeViewController
-            self.present(RechargeView, animated: true, completion: nil);
+            self.present(RechargeView, animated: false, completion: nil);
         }
         if(item.tag == 2)
         {
            
             let PayView = self.storyboard?.instantiateViewController(withIdentifier: "PayBillsViewController") as! PayBillsViewController
-            self.present(PayView, animated: true, completion: nil);
+            self.present(PayView, animated: false, completion: nil);
         }
         if(item.tag == 3)
         {
             let ServiceView = self.storyboard?.instantiateViewController(withIdentifier: "ServicesViewController") as! ServicesViewController
-            self.present(ServiceView, animated: true, completion: nil);
+            self.present(ServiceView, animated: false, completion: nil);
         }
         if(item.tag == 4)
         {
             let ApplyView = self.storyboard?.instantiateViewController(withIdentifier: "ApplyNowViewController") as! ApplyNowViewController
-            self.present(ApplyView, animated: true, completion: nil);
+            self.present(ApplyView, animated: false, completion: nil);
         }
     }
     
@@ -103,7 +104,9 @@ class HomeViewController: UIViewController,UITabBarDelegate,UITabBarControllerDe
 
     func revealMenu()
     {
-        
+        menuRevealBtn.target = revealViewController()
+        self.revealViewController().rearViewRevealOverdraw = 0.0
+        menuRevealBtn.action = #selector(SWRevealViewController.revealToggle(_:))
         
     }
     /*

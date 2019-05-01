@@ -9,10 +9,14 @@
 import UIKit
 
 class FundTransferViewController: UIViewController {
-
+    @IBOutlet weak var sideMenubar: UIBarButtonItem!
+    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-print("welcome to transfer")
+            print("welcome to transfer")
+        
+       
         // Do any additional setup after loading the view.
     }
 
@@ -20,7 +24,11 @@ print("welcome to transfer")
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    @IBAction func sideMenu(_ sender: Any) {
+        sideMenubar.target = revealViewController()
+        
+        sideMenubar.action = #selector(SWRevealViewController.revealToggle(_:))
+    }
 
     /*
     // MARK: - Navigation
