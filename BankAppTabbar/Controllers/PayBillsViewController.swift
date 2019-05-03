@@ -15,7 +15,15 @@ class PayBillsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func presentBillFunc(_ sender: Any) {
+    }
+    
+    @IBAction func disableAutoPayFunc(_ sender: Any) {
+    }
+    @IBAction func addBillerFunc(_ sender: Any) {
+    }
+    @IBAction func delBillerFunc(_ sender: Any) {
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

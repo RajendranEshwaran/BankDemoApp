@@ -8,11 +8,34 @@
 
 import UIKit
 
-class ServicesViewController: UIViewController {
+class ServicesViewController: UIViewController , UICollectionViewDelegate,UICollectionViewDataSource {
+   
+    
 
+    @IBOutlet weak var quickLinkView2: UIView!
+    @IBOutlet weak var quickLinkView: UIView!
+    
+    let serviceCollecMenuArray:[String] = ["Cheques","Accounts","Debit Cards","Credit Cards","Loans","Others"];
+    
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return serviceCollecMenuArray.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ServiceCollectionCell", for: indexPath) as! ServiceCollectionViewCell
+        
+        cell.serviceNameLabel.text = serviceCollecMenuArray[indexPath.row]
+        return cell
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        quickLinkView.layer.borderWidth = 0.2
+        quickLinkView2.layer.borderWidth = 0.4
+        
         // Do any additional setup after loading the view.
     }
 

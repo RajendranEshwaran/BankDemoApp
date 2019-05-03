@@ -21,6 +21,8 @@
 		97149CAC227559170013EC88 /* creditcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 97149CA3227559160013EC88 /* creditcard.png */; };
 		97149CAD227559170013EC88 /* moneybag.png in Resources */ = {isa = PBXBuildFile; fileRef = 97149CA4227559170013EC88 /* moneybag.png */; };
 		97149CAE227559170013EC88 /* forexcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 97149CA5227559170013EC88 /* forexcard.png */; };
+		97153301227B54D00015834A /* TransferTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97153300227B54D00015834A /* TransferTableViewCell.swift */; };
+		97153303227BD6890015834A /* ServiceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97153302227BD6890015834A /* ServiceCollectionViewCell.swift */; };
 		9733F0A622749DA0003E0773 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F0A522749DA0003E0773 /* HomeViewController.swift */; };
 		9733F0A82274B16A003E0773 /* FundTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F0A72274B16A003E0773 /* FundTransferViewController.swift */; };
 		9733F0AA2274B17B003E0773 /* RechargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F0A92274B17B003E0773 /* RechargeViewController.swift */; };
@@ -64,6 +66,8 @@
 		97149CA3227559160013EC88 /* creditcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = creditcard.png; sourceTree = "<group>"; };
 		97149CA4227559170013EC88 /* moneybag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moneybag.png; sourceTree = "<group>"; };
 		97149CA5227559170013EC88 /* forexcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forexcard.png; sourceTree = "<group>"; };
+		97153300227B54D00015834A /* TransferTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferTableViewCell.swift; sourceTree = "<group>"; };
+		97153302227BD6890015834A /* ServiceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCollectionViewCell.swift; sourceTree = "<group>"; };
 		9733F0A522749DA0003E0773 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9733F0A72274B16A003E0773 /* FundTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundTransferViewController.swift; sourceTree = "<group>"; };
 		9733F0A92274B17B003E0773 /* RechargeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechargeViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 				97149C9B227553C90013EC88 /* HomeCollectionViewCell.swift */,
 				9703B43722774DEF00031C21 /* BankAppTabbar-Bridging-Header.h */,
 				9703B43B227794C000031C21 /* SideMenuTableViewCell.swift */,
+				97153300227B54D00015834A /* TransferTableViewCell.swift */,
+				97153302227BD6890015834A /* ServiceCollectionViewCell.swift */,
 			);
 			path = ReusableControllers;
 			sourceTree = "<group>";
@@ -303,8 +309,10 @@
 				97149C9C227553C90013EC88 /* HomeCollectionViewCell.swift in Sources */,
 				9733F0AC2274B18C003E0773 /* PayBillsViewController.swift in Sources */,
 				9733F0A82274B16A003E0773 /* FundTransferViewController.swift in Sources */,
+				97153303227BD6890015834A /* ServiceCollectionViewCell.swift in Sources */,
 				9703B43A22774DF000031C21 /* SWRevealViewController.m in Sources */,
 				97FBE35A227394FB0050DE71 /* CustomNavigation.swift in Sources */,
+				97153301227B54D00015834A /* TransferTableViewCell.swift in Sources */,
 				9733F0AA2274B17B003E0773 /* RechargeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
