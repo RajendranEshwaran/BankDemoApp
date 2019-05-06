@@ -35,6 +35,10 @@
 		9733F0AE2274B19F003E0773 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F0AD2274B19F003E0773 /* ServicesViewController.swift */; };
 		9733F0B02274B1B4003E0773 /* ApplyNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F0AF2274B1B4003E0773 /* ApplyNowViewController.swift */; };
 		979F51EF2280AB4D005CFC16 /* AccountHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F51EE2280AB4D005CFC16 /* AccountHistoryTableViewCell.swift */; };
+		979F51F22280B7C4005CFC16 /* checkbox2.png in Resources */ = {isa = PBXBuildFile; fileRef = 979F51F02280B7C3005CFC16 /* checkbox2.png */; };
+		979F51F32280B7C4005CFC16 /* checkbox1.png in Resources */ = {isa = PBXBuildFile; fileRef = 979F51F12280B7C3005CFC16 /* checkbox1.png */; };
+		979F51F52280B8F0005CFC16 /* CreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F51F42280B8F0005CFC16 /* CreditCardViewController.swift */; };
+		979F51F72280D165005CFC16 /* DepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F51F62280D165005CFC16 /* DepositViewController.swift */; };
 		97A54BE2227F580F00C8B305 /* ApplyNowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A54BE1227F580F00C8B305 /* ApplyNowTableViewCell.swift */; };
 		97FBE32922720F4A0050DE71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FBE32822720F4A0050DE71 /* AppDelegate.swift */; };
 		97FBE32E22720F4A0050DE71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97FBE32C22720F4A0050DE71 /* Main.storyboard */; };
@@ -87,6 +91,10 @@
 		9733F0AD2274B19F003E0773 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
 		9733F0AF2274B1B4003E0773 /* ApplyNowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyNowViewController.swift; sourceTree = "<group>"; };
 		979F51EE2280AB4D005CFC16 /* AccountHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		979F51F02280B7C3005CFC16 /* checkbox2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox2.png; sourceTree = "<group>"; };
+		979F51F12280B7C3005CFC16 /* checkbox1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox1.png; sourceTree = "<group>"; };
+		979F51F42280B8F0005CFC16 /* CreditCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardViewController.swift; sourceTree = "<group>"; };
+		979F51F62280D165005CFC16 /* DepositViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositViewController.swift; sourceTree = "<group>"; };
 		97A54BE1227F580F00C8B305 /* ApplyNowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyNowTableViewCell.swift; sourceTree = "<group>"; };
 		97FBE32522720F4A0050DE71 /* BankAppTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankAppTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FBE32822720F4A0050DE71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +134,8 @@
 			children = (
 				9713F296227F95CA0090EA66 /* AccountViewController.swift */,
 				9713F29D227FB1490090EA66 /* AccountHistoryViewController.swift */,
+				979F51F42280B8F0005CFC16 /* CreditCardViewController.swift */,
+				979F51F62280D165005CFC16 /* DepositViewController.swift */,
 			);
 			path = "Collection Controllers";
 			sourceTree = "<group>";
@@ -216,6 +226,8 @@
 		97FBE33A227217510050DE71 /* ImageAssets */ = {
 			isa = PBXGroup;
 			children = (
+				979F51F12280B7C3005CFC16 /* checkbox1.png */,
+				979F51F02280B7C3005CFC16 /* checkbox2.png */,
 				9713F29F227FBD5D0090EA66 /* back.png */,
 				9713F29B227FA8880090EA66 /* tableselectionarrow.png */,
 				9703B43F22779D3600031C21 /* profile.png */,
@@ -307,6 +319,7 @@
 				97FBE35C2273EED80050DE71 /* NavigationCustom.xib in Resources */,
 				9713F29C227FA8880090EA66 /* tableselectionarrow.png in Resources */,
 				97FBE3582273928E0050DE71 /* CustomNavigation.xib in Resources */,
+				979F51F32280B7C4005CFC16 /* checkbox1.png in Resources */,
 				97FBE342227217820050DE71 /* recharge.png in Resources */,
 				97FBE33322720F4C0050DE71 /* LaunchScreen.storyboard in Resources */,
 				97149CAC227559170013EC88 /* creditcard.png in Resources */,
@@ -314,6 +327,7 @@
 				97FBE34E2272264B0050DE71 /* logout.png in Resources */,
 				97149CA9227559170013EC88 /* demats.png in Resources */,
 				97149CA6227559170013EC88 /* upi.png in Resources */,
+				979F51F22280B7C4005CFC16 /* checkbox2.png in Resources */,
 				97149CAB227559170013EC88 /* account.png in Resources */,
 				97149CAD227559170013EC88 /* moneybag.png in Resources */,
 				97FBE340227217820050DE71 /* applynow.png in Resources */,
@@ -343,11 +357,13 @@
 				9713F29E227FB1490090EA66 /* AccountHistoryViewController.swift in Sources */,
 				97FBE3602273F0860050DE71 /* NavigationCustom.swift in Sources */,
 				97A54BE2227F580F00C8B305 /* ApplyNowTableViewCell.swift in Sources */,
+				979F51F52280B8F0005CFC16 /* CreditCardViewController.swift in Sources */,
 				9703B43E2277952400031C21 /* SideMenuViewController.swift in Sources */,
 				9703B43C227794C000031C21 /* SideMenuTableViewCell.swift in Sources */,
 				9733F0AE2274B19F003E0773 /* ServicesViewController.swift in Sources */,
 				97FBE32922720F4A0050DE71 /* AppDelegate.swift in Sources */,
 				9713F297227F95CA0090EA66 /* AccountViewController.swift in Sources */,
+				979F51F72280D165005CFC16 /* DepositViewController.swift in Sources */,
 				97149C9C227553C90013EC88 /* HomeCollectionViewCell.swift in Sources */,
 				9733F0AC2274B18C003E0773 /* PayBillsViewController.swift in Sources */,
 				9733F0A82274B16A003E0773 /* FundTransferViewController.swift in Sources */,

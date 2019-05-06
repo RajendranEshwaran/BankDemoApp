@@ -64,6 +64,16 @@ class HomeViewController: UIViewController,UITabBarDelegate,UITabBarControllerDe
         let FundView = self.storyboard?.instantiateViewController(withIdentifier: "AccountViewController") as! AccountViewController
         self.present(FundView, animated: false, completion: nil);
         }
+        if(indexPath.item == 1)
+        {
+            let FundView = self.storyboard?.instantiateViewController(withIdentifier: "CreditCardViewController") as! CreditCardViewController
+            self.present(FundView, animated: false, completion: nil);
+        }
+        if(indexPath.item == 2)
+        {
+            let FundView = self.storyboard?.instantiateViewController(withIdentifier: "DepositViewController") as! DepositViewController
+            self.present(FundView, animated: false, completion: nil);
+        }
     }
     
     

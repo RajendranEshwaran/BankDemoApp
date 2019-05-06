@@ -24,7 +24,12 @@ class AccountHistoryViewController: UIViewController, UITableViewDataSource,UITa
         return cell
     }
     
-
+    @IBAction func viewStatementFunc(_ sender: Any) {
+    }
+    
+    @IBAction func emailStatementFunc(_ sender: Any) {
+    }
+    
     @IBOutlet weak var backItem: UIBarButtonItem!
     @IBOutlet weak var titileNavBar: UINavigationBar!
     override func viewDidLoad() {
