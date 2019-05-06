@@ -1,32 +1,21 @@
 //
-//  ApplyNowViewController.swift
+//  AccountHistoryViewController.swift
 //  BankAppTabbar
 //
-//  Created by gomathi saminathan on 4/27/19.
+//  Created by gomathi saminathan on 5/5/19.
 //  Copyright © 2019 Rajendran Eshwaran. All rights reserved.
 //
 
 import UIKit
 
-class ApplyNowViewController: UIViewController ,UITableViewDelegate,UITableViewDataSource{
-   
-    let listArray:[String] = ["ASAP Savings Account","Credit Cards","Loans","Lockers","Pre-Approved Offers"]
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return listArray.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ApplyNowCell", for: indexPath) as! ApplyNowTableViewCell
-        
-        cell.cellLable.text = listArray[indexPath.row]
-        return cell
-    }
-    
+class AccountHistoryViewController: UIViewController {
 
+    @IBOutlet weak var backItem: UIBarButtonItem!
+    @IBOutlet weak var titileNavBar: UINavigationBar!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         // Do any additional setup after loading the view.
     }
 
@@ -35,7 +24,14 @@ class ApplyNowViewController: UIViewController ,UITableViewDelegate,UITableViewD
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func goBack(_ sender: Any) {
+        
+        dismiss(animated: false, completion: nil)
+       
+    }
+    func goback(){
+        
+    }
     /*
     // MARK: - Navigation
 

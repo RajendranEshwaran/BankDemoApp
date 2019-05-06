@@ -11,6 +11,11 @@
 		9703B43C227794C000031C21 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9703B43B227794C000031C21 /* SideMenuTableViewCell.swift */; };
 		9703B43E2277952400031C21 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9703B43D2277952400031C21 /* SideMenuViewController.swift */; };
 		9703B44022779D3600031C21 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 9703B43F22779D3600031C21 /* profile.png */; };
+		9713F297227F95CA0090EA66 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9713F296227F95CA0090EA66 /* AccountViewController.swift */; };
+		9713F29A227F9BDF0090EA66 /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9713F299227F9BDF0090EA66 /* AccountTableViewCell.swift */; };
+		9713F29C227FA8880090EA66 /* tableselectionarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9713F29B227FA8880090EA66 /* tableselectionarrow.png */; };
+		9713F29E227FB1490090EA66 /* AccountHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9713F29D227FB1490090EA66 /* AccountHistoryViewController.swift */; };
+		9713F2A0227FBD5D0090EA66 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 9713F29F227FBD5D0090EA66 /* back.png */; };
 		97149C9C227553C90013EC88 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97149C9B227553C90013EC88 /* HomeCollectionViewCell.swift */; };
 		97149CA6227559170013EC88 /* upi.png in Resources */ = {isa = PBXBuildFile; fileRef = 97149C9D227559150013EC88 /* upi.png */; };
 		97149CA7227559170013EC88 /* deals.png in Resources */ = {isa = PBXBuildFile; fileRef = 97149C9E227559150013EC88 /* deals.png */; };
@@ -29,6 +34,7 @@
 		9733F0AC2274B18C003E0773 /* PayBillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F0AB2274B18C003E0773 /* PayBillsViewController.swift */; };
 		9733F0AE2274B19F003E0773 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F0AD2274B19F003E0773 /* ServicesViewController.swift */; };
 		9733F0B02274B1B4003E0773 /* ApplyNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F0AF2274B1B4003E0773 /* ApplyNowViewController.swift */; };
+		97A54BE2227F580F00C8B305 /* ApplyNowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A54BE1227F580F00C8B305 /* ApplyNowTableViewCell.swift */; };
 		97FBE32922720F4A0050DE71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FBE32822720F4A0050DE71 /* AppDelegate.swift */; };
 		97FBE32E22720F4A0050DE71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97FBE32C22720F4A0050DE71 /* Main.storyboard */; };
 		97FBE33022720F4C0050DE71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97FBE32F22720F4C0050DE71 /* Assets.xcassets */; };
@@ -56,6 +62,11 @@
 		9703B43B227794C000031C21 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
 		9703B43D2277952400031C21 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		9703B43F22779D3600031C21 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		9713F296227F95CA0090EA66 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		9713F299227F9BDF0090EA66 /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
+		9713F29B227FA8880090EA66 /* tableselectionarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableselectionarrow.png; sourceTree = "<group>"; };
+		9713F29D227FB1490090EA66 /* AccountHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountHistoryViewController.swift; sourceTree = "<group>"; };
+		9713F29F227FBD5D0090EA66 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		97149C9B227553C90013EC88 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		97149C9D227559150013EC88 /* upi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upi.png; sourceTree = "<group>"; };
 		97149C9E227559150013EC88 /* deals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deals.png; sourceTree = "<group>"; };
@@ -74,6 +85,7 @@
 		9733F0AB2274B18C003E0773 /* PayBillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayBillsViewController.swift; sourceTree = "<group>"; };
 		9733F0AD2274B19F003E0773 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
 		9733F0AF2274B1B4003E0773 /* ApplyNowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyNowViewController.swift; sourceTree = "<group>"; };
+		97A54BE1227F580F00C8B305 /* ApplyNowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyNowTableViewCell.swift; sourceTree = "<group>"; };
 		97FBE32522720F4A0050DE71 /* BankAppTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankAppTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FBE32822720F4A0050DE71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97FBE32D22720F4A0050DE71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,9 +119,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9713F295227F955F0090EA66 /* Collection Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9713F296227F95CA0090EA66 /* AccountViewController.swift */,
+				9713F29D227FB1490090EA66 /* AccountHistoryViewController.swift */,
+			);
+			path = "Collection Controllers";
+			sourceTree = "<group>";
+		};
+		9713F298227F9BB70090EA66 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				9713F299227F9BDF0090EA66 /* AccountTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
 		9733F0B12274B21C003E0773 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9713F295227F955F0090EA66 /* Collection Controllers */,
 				97FBE35F2273F0860050DE71 /* NavigationCustom.swift */,
 				9733F0AD2274B19F003E0773 /* ServicesViewController.swift */,
 				9733F0A522749DA0003E0773 /* HomeViewController.swift */,
@@ -135,6 +165,7 @@
 				9703B43B227794C000031C21 /* SideMenuTableViewCell.swift */,
 				97153300227B54D00015834A /* TransferTableViewCell.swift */,
 				97153302227BD6890015834A /* ServiceCollectionViewCell.swift */,
+				97A54BE1227F580F00C8B305 /* ApplyNowTableViewCell.swift */,
 			);
 			path = ReusableControllers;
 			sourceTree = "<group>";
@@ -150,6 +181,7 @@
 		97FBE31C22720F4A0050DE71 = {
 			isa = PBXGroup;
 			children = (
+				9713F298227F9BB70090EA66 /* TableViewCells */,
 				97FBE32722720F4A0050DE71 /* BankAppTabbar */,
 				97FBE32622720F4A0050DE71 /* Products */,
 			);
@@ -181,6 +213,8 @@
 		97FBE33A227217510050DE71 /* ImageAssets */ = {
 			isa = PBXGroup;
 			children = (
+				9713F29F227FBD5D0090EA66 /* back.png */,
+				9713F29B227FA8880090EA66 /* tableselectionarrow.png */,
 				9703B43F22779D3600031C21 /* profile.png */,
 				97149CA2227559160013EC88 /* account.png */,
 				97149CA3227559160013EC88 /* creditcard.png */,
@@ -266,7 +300,9 @@
 			files = (
 				97FBE3482272195C0050DE71 /* services2.png in Resources */,
 				97FBE34D2272264B0050DE71 /* notifi.png in Resources */,
+				9713F2A0227FBD5D0090EA66 /* back.png in Resources */,
 				97FBE35C2273EED80050DE71 /* NavigationCustom.xib in Resources */,
+				9713F29C227FA8880090EA66 /* tableselectionarrow.png in Resources */,
 				97FBE3582273928E0050DE71 /* CustomNavigation.xib in Resources */,
 				97FBE342227217820050DE71 /* recharge.png in Resources */,
 				97FBE33322720F4C0050DE71 /* LaunchScreen.storyboard in Resources */,
@@ -301,17 +337,21 @@
 			files = (
 				9733F0A622749DA0003E0773 /* HomeViewController.swift in Sources */,
 				9733F0B02274B1B4003E0773 /* ApplyNowViewController.swift in Sources */,
+				9713F29E227FB1490090EA66 /* AccountHistoryViewController.swift in Sources */,
 				97FBE3602273F0860050DE71 /* NavigationCustom.swift in Sources */,
+				97A54BE2227F580F00C8B305 /* ApplyNowTableViewCell.swift in Sources */,
 				9703B43E2277952400031C21 /* SideMenuViewController.swift in Sources */,
 				9703B43C227794C000031C21 /* SideMenuTableViewCell.swift in Sources */,
 				9733F0AE2274B19F003E0773 /* ServicesViewController.swift in Sources */,
 				97FBE32922720F4A0050DE71 /* AppDelegate.swift in Sources */,
+				9713F297227F95CA0090EA66 /* AccountViewController.swift in Sources */,
 				97149C9C227553C90013EC88 /* HomeCollectionViewCell.swift in Sources */,
 				9733F0AC2274B18C003E0773 /* PayBillsViewController.swift in Sources */,
 				9733F0A82274B16A003E0773 /* FundTransferViewController.swift in Sources */,
 				97153303227BD6890015834A /* ServiceCollectionViewCell.swift in Sources */,
 				9703B43A22774DF000031C21 /* SWRevealViewController.m in Sources */,
 				97FBE35A227394FB0050DE71 /* CustomNavigation.swift in Sources */,
+				9713F29A227F9BDF0090EA66 /* AccountTableViewCell.swift in Sources */,
 				97153301227B54D00015834A /* TransferTableViewCell.swift in Sources */,
 				9733F0AA2274B17B003E0773 /* RechargeViewController.swift in Sources */,
 			);

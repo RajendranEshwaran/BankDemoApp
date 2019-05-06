@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ServicesViewController: UIViewController , UICollectionViewDelegate,UICollectionViewDataSource {
+class ServicesViewController: UIViewController  ,UICollectionViewDelegate,UICollectionViewDataSource {
    
     
 
@@ -33,7 +33,7 @@ class ServicesViewController: UIViewController , UICollectionViewDelegate,UIColl
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        quickLinkView.layer.borderWidth = 0.2
+        quickLinkView.layer.borderWidth = 0.4
         quickLinkView2.layer.borderWidth = 0.4
         
         // Do any additional setup after loading the view.

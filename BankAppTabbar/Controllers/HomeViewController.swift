@@ -20,8 +20,8 @@ class HomeViewController: UIViewController,UITabBarDelegate,UITabBarControllerDe
     
     
     
-    let imgArray:[String] = ["account.png","creditcard.png","moneybag.png","loans.png","upi.png","deals.png","mutualfunds.png","demats.png","forexcard.png","account.png","creditcard.png"]
-    let labelArray:[String] = ["Accounts","CreditCard","FD/RD","Loans","UPI","Grap Deals","Mutual Funds","Demat","Forex Cards" ,"Accounts","Credit Card"]
+    let imgArray:[String] = ["account.png","creditcard.png","moneybag.png","loans.png","upi.png","deals.png","mutualfunds.png","demats.png","forexcard.png"]
+    let labelArray:[String] = ["Accounts","CreditCard","FD/RD","Loans","UPI","Grap Deals","Mutual Funds","Demat","Forex Cards"]
 
     
     override func viewDidLoad() {
@@ -58,6 +58,12 @@ class HomeViewController: UIViewController,UITabBarDelegate,UITabBarControllerDe
     {
         collectionView.deselectItem(at: indexPath as IndexPath, animated: false)
          print(indexPath.item)
+        
+        if(indexPath.item == 0)
+        {
+        let FundView = self.storyboard?.instantiateViewController(withIdentifier: "AccountViewController") as! AccountViewController
+        self.present(FundView, animated: false, completion: nil);
+        }
     }
     
     
