@@ -8,7 +8,22 @@
 
 import UIKit
 
-class AccountHistoryViewController: UIViewController {
+class AccountHistoryViewController: UIViewController, UITableViewDataSource,UITableViewDelegate {
+    
+    let transArray:[String] = ["10,000,000.00"]
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return transArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "AccountHistoryTableViewCell", for: indexPath) as! AccountHistoryTableViewCell
+        
+        cell.amountLabel.text = transArray[indexPath.row]
+        return cell
+    }
+    
 
     @IBOutlet weak var backItem: UIBarButtonItem!
     @IBOutlet weak var titileNavBar: UINavigationBar!
@@ -29,9 +44,7 @@ class AccountHistoryViewController: UIViewController {
         dismiss(animated: false, completion: nil)
        
     }
-    func goback(){
-        
-    }
+   
     /*
     // MARK: - Navigation
 

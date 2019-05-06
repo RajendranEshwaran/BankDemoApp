@@ -34,6 +34,7 @@
 		9733F0AC2274B18C003E0773 /* PayBillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F0AB2274B18C003E0773 /* PayBillsViewController.swift */; };
 		9733F0AE2274B19F003E0773 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F0AD2274B19F003E0773 /* ServicesViewController.swift */; };
 		9733F0B02274B1B4003E0773 /* ApplyNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F0AF2274B1B4003E0773 /* ApplyNowViewController.swift */; };
+		979F51EF2280AB4D005CFC16 /* AccountHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F51EE2280AB4D005CFC16 /* AccountHistoryTableViewCell.swift */; };
 		97A54BE2227F580F00C8B305 /* ApplyNowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A54BE1227F580F00C8B305 /* ApplyNowTableViewCell.swift */; };
 		97FBE32922720F4A0050DE71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FBE32822720F4A0050DE71 /* AppDelegate.swift */; };
 		97FBE32E22720F4A0050DE71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97FBE32C22720F4A0050DE71 /* Main.storyboard */; };
@@ -85,6 +86,7 @@
 		9733F0AB2274B18C003E0773 /* PayBillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayBillsViewController.swift; sourceTree = "<group>"; };
 		9733F0AD2274B19F003E0773 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
 		9733F0AF2274B1B4003E0773 /* ApplyNowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyNowViewController.swift; sourceTree = "<group>"; };
+		979F51EE2280AB4D005CFC16 /* AccountHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountHistoryTableViewCell.swift; sourceTree = "<group>"; };
 		97A54BE1227F580F00C8B305 /* ApplyNowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyNowTableViewCell.swift; sourceTree = "<group>"; };
 		97FBE32522720F4A0050DE71 /* BankAppTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankAppTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FBE32822720F4A0050DE71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				9713F299227F9BDF0090EA66 /* AccountTableViewCell.swift */,
+				979F51EE2280AB4D005CFC16 /* AccountHistoryTableViewCell.swift */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				97FBE35A227394FB0050DE71 /* CustomNavigation.swift in Sources */,
 				9713F29A227F9BDF0090EA66 /* AccountTableViewCell.swift in Sources */,
 				97153301227B54D00015834A /* TransferTableViewCell.swift in Sources */,
+				979F51EF2280AB4D005CFC16 /* AccountHistoryTableViewCell.swift in Sources */,
 				9733F0AA2274B17B003E0773 /* RechargeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
